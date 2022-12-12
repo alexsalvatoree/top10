@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to left, rgba(237, 42, 42, 0.682), rgba(0, 0, 0, 0.692));
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+main {
+    background: rgb(231, 218, 161);
+    max-width: 900px;
+    min-height: 40vh;
+    padding: 2rem;
+    box-shadow: 5px, 5px, 15px, rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+
+}
+
+header {
+    max-width: 814px;
+    min-height: 25vh;
+    padding: 1rem;
+    padding-bottom: 0.2rem;
+    box-shadow: 5px, 5px, 15px, rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+
+
+}
+
+h1.titulo-inicio {
+    font-size: 2.5rem;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.texto-inicio {
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    width: 700px;
+    display: block;
+    margin-left: 3rem;
+}
+
+.desordenada {
+    padding: 1rem;
+    font-size: 0.9rem;
+    padding-left: 1.6rem;
+}
+
+.titulo-secundario {
+    font-size: 1.8rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
+.titulo-ordenado {
+    font-size: 1.5rem;
+    padding-top: 5rem;
+    padding-left: 2rem;
+}
+
+.texto {
+    font-size: 1rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    width: 700px;
+    display: block;
+    margin-left: 3rem;
+}
+
+.ordenada {
+    font-size: 1rem;
+    padding: 2rem;
+    padding-left: 5rem;
+
+}
+
+.imagem {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
